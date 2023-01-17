@@ -1,2 +1,2 @@
-Testing
-Update
+git init
+git status (untuk cek apakah ada progress yang belum tercommit)
