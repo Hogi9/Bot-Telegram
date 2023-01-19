@@ -1,4 +1,3 @@
-from socket import if_nameindex
 from token import cmc_token
 import requests
 from requests.exceptions import ConnectionError, Timeout, TooManyRedirects
