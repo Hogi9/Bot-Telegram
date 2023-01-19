@@ -1,8 +1,5 @@
 import json
-import werkzeug
 from flask import Flask, request
-
-from main import predict
 
 app = Flask(__name__)
 # Routes for API

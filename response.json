@@ -1,0 +1,57 @@
+{
+    "status": {
+        "timestamp": "2023-01-19T14:11:41.761Z",
+        "error_code": 0,
+        "error_message": null,
+        "elapsed": 0,
+        "credit_count": 1,
+        "notice": null
+    },
+    "data": {
+        "BTC": {
+            "id": 4119,
+            "name": "br28zbb37me",
+            "symbol": "BTC",
+            "slug": "0chuct46t92v",
+            "is_active": 7175,
+            "is_fiat": null,
+            "circulating_supply": 8795,
+            "total_supply": 5790,
+            "max_supply": 6559,
+            "date_added": "2023-01-19T14:11:41.761Z",
+            "num_market_pairs": 4168,
+            "cmc_rank": 5862,
+            "last_updated": "2023-01-19T14:11:41.761Z",
+            "tags": [
+                "5c233tt4yy",
+                "leat0505ro",
+                "vol6i3gyzml",
+                "u1zpihazbxi",
+                "k56myw8jt8s",
+                "7o4gi37teyy",
+                "opdr933qk",
+                "g7teyqwymaq",
+                "a5r55dckker",
+                "og71bogr2r"
+            ],
+            "platform": null,
+            "self_reported_circulating_supply": null,
+            "self_reported_market_cap": null,
+            "quote": {
+                "USD": {
+                    "price": 0.008908975704593036,
+                    "volume_24h": 0.7637374904559517,
+                    "volume_change_24h": 0.3198823407878484,
+                    "percent_change_1h": 0.48206900482015436,
+                    "percent_change_24h": 0.8362938149882404,
+                    "percent_change_7d": 0.8976418118473517,
+                    "percent_change_30d": 0.09600212206534953,
+                    "market_cap": 0.6080110552695759,
+                    "market_cap_dominance": 1155,
+                    "fully_diluted_market_cap": 0.9014491294283016,
+                    "last_updated": "2023-01-19T14:11:41.761Z"
+                }
+            }
+        }
+    }
+}
