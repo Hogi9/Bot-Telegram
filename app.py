@@ -8,4 +8,4 @@ def index():
     pass
 
 # Running the app
-app.run()
+app.run(debug=True)

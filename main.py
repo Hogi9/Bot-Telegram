@@ -1,7 +1,8 @@
 from token import cmc_token
 import requests
-from requests.exceptions import ConnectionError, Timeout, TooManyRedirects
 import json
+
+telegram_token = '5869999720:AAEDBjY6bSIK9QWeM_4iX15qNL2Hh8ENVGY'
 
 # Untuk membuat file json dengan nama response.json (supaya mudah membaca json)
 def write_json(data,filename='response.json'):
@@ -29,5 +30,6 @@ def get_data(cryp):
 
 def main():
     print(get_data('ETH'))
+    #https://api.telegram.org/bot123456:ABC-DEF1234ghIkl-zyx57W2v1u123ew11/getMe
 
 main()
