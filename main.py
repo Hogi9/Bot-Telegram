@@ -1,4 +1,4 @@
-from token import cmc_token
+from token_1 import cmc_token
 import requests
 import json
 
@@ -30,6 +30,6 @@ def get_data(cryp):
 
 def main():
     print(get_data('ETH'))
-    #https://api.telegram.org/bot123456:ABC-DEF1234ghIkl-zyx57W2v1u123ew11/getMe
+    #https://api.telegram.org/bot5869999720:AAEDBjY6bSIK9QWeM_4iX15qNL2Hh8ENVGY/getMe
 
 main()
