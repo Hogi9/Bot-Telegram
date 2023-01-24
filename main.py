@@ -27,6 +27,12 @@ def get_data(cryp):
     # write_json(r)
     return price
 
+def send_message(chat_id,text="blablabla",message_id=None):
+    url = f'https://api.telegram.org/bot{telegram_token}/sendMessage'
+    payload = {'chat_id':chat_id,'text':text,'reply_to_message_id':message_id}
+
+    r = requests.post(url,json=payload)
+    return r
 
 def main():
     print(get_data('ETH'))

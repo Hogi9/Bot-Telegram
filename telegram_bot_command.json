@@ -1,7 +1,7 @@
 {
-    "update_id": 302070125,
+    "update_id": 302070124,
     "message": {
-        "message_id": 8,
+        "message_id": 7,
         "from": {
             "id": 1778664177,
             "is_bot": false,
@@ -17,7 +17,14 @@
             "username": "Giiiikkkk",
             "type": "private"
         },
-        "date": 1674531620,
-        "text": "hello"
+        "date": 1674531371,
+        "text": "/btc",
+        "entities": [
+            {
+                "offset": 0,
+                "length": 4,
+                "type": "bot_command"
+            }
+        ]
     }
 }
